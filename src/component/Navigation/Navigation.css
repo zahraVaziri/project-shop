@@ -1,0 +1,28 @@
+nav{
+    background-color: rgb(242, 229, 253);
+}
+
+.ul-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul-nav li{
+    padding: 15px;
+}
+.ul-nav a{
+    color: #564d4d;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.ul-nav a:hover,
+.active-link{
+    background-color: aliceblue;
+    color: rgb(165, 76, 243);
+}
