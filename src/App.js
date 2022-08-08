@@ -8,10 +8,13 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home/Home';
 import Cart from './pages/Cart/Cart';
+import CartProvider from './component/Provider/CartProvider';
+
 function App() {
   return (
     <div className="App">
       <Router>
+        <CartProvider>
       <Layout>
          <Switch>
          
@@ -24,6 +27,7 @@ function App() {
           </Route>
         </Switch>
       </Layout>
+      </CartProvider>
       </Router>
       
     </div>

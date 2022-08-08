@@ -1,10 +1,15 @@
-import React from 'react'
+import { useCart } from '../../component/Provider/CartProvider'
 
 const Cart = () => {
+  const cartState = useCart()
   return (
-    <div>
-      cart
-    </div>
+    <main>
+    {cartState.cart.length ? (
+    cartState.cart.map(item => <p>{item.name}</p>)):(
+      <p> item not </p>
+    )
+     }
+  </main>
   )
 }
 

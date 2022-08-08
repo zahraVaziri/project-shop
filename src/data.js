@@ -1,5 +1,6 @@
 export const products=[
     {
+        id:1,
         name: "white",
         description:[
             {support:"گارانتی کالا"},
@@ -13,6 +14,7 @@ export const products=[
 
     },
     {
+        id:2,
         name: "adidas",
         description:[
             {support:"گارانتی کالا"},
@@ -25,6 +27,7 @@ export const products=[
         img:'/image/2.jpg'
     },
     {
+        id:3,
         name: "versace",
         description:[
             {support:"گارانتی کالا"},
@@ -37,6 +40,7 @@ export const products=[
         img:'/image/3.jpg'
     },
     {
+        id:4,
         name: "D&G",
         description:[
             {support:"گارانتی کالا"},
@@ -49,6 +53,7 @@ export const products=[
         img:'/image/4.jpg'
     },
     {
+        id:5,
         name: "D&G",
         description:[
             {support:"گارانتی کالا"},
@@ -61,6 +66,7 @@ export const products=[
         img:'/image/4.jpg'
     },
     {
+        id:6,
         name: "D&G",
         description:[
             {support:"گارانتی کالا"},
