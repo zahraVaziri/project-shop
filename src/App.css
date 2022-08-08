@@ -1,4 +1,33 @@
-.App{
-  text-align: center;
- 
+
+.product-app{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+   
+}
+.product-desc{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(221, 185, 255);
+  border-radius: 0px 0px 6px 6px;
+  -webkit-border-radius: 0px 0px 6px 6px;
+  -moz-border-radius: 0px 0px 6px 6px;
+  -ms-border-radius: 0px 0px 6px 6px;
+  -o-border-radius: 0px 0px 6px 6px;
+}
+
+.product-desc button{
+  background-color: rgb(181, 102, 255);
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 5px 1rem;
+  border: none;
+  outline: none;
 }

@@ -1,5 +1,6 @@
 import './App.css';
 import Layout from './component/Layout/Layout';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -24,6 +25,7 @@ function App() {
         </Switch>
       </Layout>
       </Router>
+      
     </div>
   );
 }
